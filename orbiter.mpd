@@ -1,4 +1,8 @@
 0 FILE orbiter.ldr
+0 Name: orbiter.ldr
+0 Author: LPub3D
+0 !LPUB PAGE ORIENTATION GLOBAL LANDSCAPE
+0 !LPUB PAGE SIZE GLOBAL 5.8268 8.2677 A5 LANDSCAPE
 1 0 0 -8 180 -1 0 0 0 1 0 0 0 -1 3032.dat
 1 0 0 -8 60 0 0 1 0 1 0 -1 0 0 3034.dat
 1 0 0 -8 230 1 0 0 0 1 0 0 0 1 4477.dat
@@ -23,7 +27,6 @@
 1 15 100 -16 260 0 0 -1 0 1 0 1 0 0 41770.dat
 1 15 50 -16 240 0 0 -1 0 1 0 1 0 0 3710.dat
 1 15 70 -16 220 0 0 -1 0 1 0 1 0 0 3069b.dat
-0 Name: orbiter.ldr
 0 STEP
 1 15 60 -16 130 1 0 0 0 1 0 0 0 1 43723.dat
 1 15 40 -16 60 1 0 0 0 1 0 0 0 1 41770.dat
@@ -82,21 +85,19 @@
 1 15 -30 -32 150 0 0 1 0 1 0 -1 0 0 3623.dat
 1 15 -30 -32 90 0 0 1 0 1 0 -1 0 0 3623.dat
 0 STEP
+1 15 0 -40 50 -1 0 0 0 1 0 0 0 -1 2412b.dat
+1 15 0 -40 190 -1 0 0 0 1 0 0 0 -1 3069b.dat
+0 STEP
+0 !LPUB INSERT ROTATE_ICON
+0 !LPUB ASSEM CAMERA_ANGLES 23.0  225.0
 1 15 30 -56 80 0 0 1 0 1 0 -1 0 0 30413.dat
 1 15 -30 -56 80 0 0 -1 0 1 0 1 0 0 30413.dat
 1 15 30 -56 160 0 0 1 0 1 0 -1 0 0 30413.dat
 1 15 -30 -56 160 0 0 -1 0 1 0 1 0 0 30413.dat
-1 15 0 -40 50 -1 0 0 0 1 0 0 0 -1 2412b.dat
-1 15 0 -40 190 -1 0 0 0 1 0 0 0 -1 3069b.dat
 0 STEP
-1 15 0 -40 70 0 0 1 0 1 0 -1 0 0 6541.dat
-1 15 0 -50 70 0 0 1 0 1 0 -1 0 0 18654.dat
-1 15 10 -30 70 0 1 0 -0.866025 0 -0.5 -0.5 0 0.866025 3661.dat
-1 15 -10 -30 70 0 -1 0 -0.866025 0 0.5 -0.5 0 -0.866025 3661.dat
+1 15 0 0 0 1 0 0 0 1 0 0 0 1 arm.ldr
 0 STEP
-1 15 -7 0 -66 1 0 0 0 1 0 0 0 1 arm.ldr
-0 STEP
-1 0 0 -24 200 -1 0 0 0 1 0 0 0 -1 hinges back.ldr
+1 0 0 -24 200 1 0 0 0 1 0 0 0 1 hinges back.ldr
 0 STEP
 1 0 30 -16 270 -1 0 0 0 1 0 0 0 -1 49668.dat
 1 0 -30 -16 270 -1 0 0 0 1 0 0 0 -1 49668.dat
@@ -151,6 +152,8 @@
 0 STEP
 1 4 -30 -62 302.0002 0.848048 0 -0.529919 -0.529919 0 -0.848048 0 1 0 oms right.ldr
 0 STEP
+0 !LPUB INSERT ROTATE_ICON
+0 !LPUB ASSEM CAMERA_ANGLES 23.0   45.0
 1 15 30 -61.9999 302.0001 0.848048 0 0.529919 0.529919 0 -0.848048 0 1 0 oms left.ldr
 0 STEP
 1 15 0 -24 40 1 0 0 0 1 0 0 0 1 hinges front.ldr
@@ -165,7 +168,7 @@
 0 STEP
 1 15 0 -48 -60 1 0 0 0 1 0 0 0 1 5404.dat
 1 15 0 -48 -40 0 0 1 0 1 0 -1 0 0 3710.dat
-1 15 0 -56 -20 0 0 1 0 1 0 -1 0 0 3023b.dat
+1 15 0 -56 -10 0 0 1 0 1 0 -1 0 0 3623.dat
 0 STEP
 0 !LEOCAD PIECE PIVOT  -20 0 10 1 0 0 0 1 0 0 0 1
 1 0 0.3368 -16 0.7041 0.999391 0 -0.034899 0 1 0 0.034899 0 0.999391 cheek right.ldr
@@ -184,20 +187,11 @@
 1 0 -20 -56 -20 1 0 0 0 1 0 0 0 1 29119.dat
 1 15 0 -80 0 1 0 0 0 1 0 0 0 1 5520.dat
 0 STEP
-0 STEP
-0 STEP
-0 STEP
-0 STEP
-0 STEP
-0 STEP
-0 STEP
-0 STEP
-0 STEP
-0 STEP
 0 NOFILE
-0 FILE nozzles.ldr
 0
+0 FILE nozzles.ldr
 0 Name: nozzles bottom.ldr
+0 Author:
 1 0 -20 -24 0 1 0 0 0 1 0 0 0 1 98100.dat
 1 0 20 -24 0 1 0 0 0 1 0 0 0 1 98100.dat
 1 0 0 -24 40 1 0 0 0 1 0 0 0 1 98100.dat
@@ -210,10 +204,14 @@
 0 STEP
 1 0 -10 -48 20 1 0 0 0 1 0 0 0 1 15712.dat
 1 0 10 -48 20 1 0 0 0 1 0 0 0 1 15712.dat
+0 Author: LPub3D
+0 Author: LPub3D
+0 Author: LPub3D
 0 NOFILE
-0 FILE oms left.ldr
 0
+0 FILE oms left.ldr
 0 Name: oms left.ldr
+0 Author:
 1 0 -20 -24 20 1 0 0 0 1 0 0 0 1 59900.dat
 0 STEP
 1 0 -20 -32 20 0 0 -1 0 1 0 1 0 0 36841.dat
@@ -227,10 +225,14 @@
 1 15 0 -56 20 1 0 0 0 1 0 0 0 1 60897.dat
 0 STEP
 1 15 -10 -80 20 -1 0 0 0 1 0 0 0 -1 37352.dat
+0 Author: LPub3D
+0 Author: LPub3D
+0 Author: LPub3D
 0 NOFILE
-0 FILE oms right.ldr
 0
+0 FILE oms right.ldr
 0 Name: oms right.ldr
+0 Author:
 1 0 20 -24 20 1 0 0 0 1 0 0 0 1 59900.dat
 0 STEP
 1 0 20 -32 20 0 0 1 0 1 0 -1 0 0 36841.dat
@@ -244,27 +246,39 @@
 1 15 0 -56 20 1 0 0 0 1 0 0 0 1 60897.dat
 0 STEP
 1 15 10 -80 20 -1 0 0 0 1 0 0 0 -1 37352.dat
+0 Author: LPub3D
+0 Author: LPub3D
+0 Author: LPub3D
 0 NOFILE
-0 FILE hinges back.ldr
 0
+0 FILE hinges back.ldr
 0 Name: hinges.ldr
-1 15 -20 -40.0002 9.9999 1 0 0 0 1 0 0 0 1 99781.dat
+0 Author:
+1 15 20 -40.0002 -10.0001 -1 0 0 0 1 0 0 0 -1 99781.dat
 0 STEP
-1 15 -40 -20 -12 -1 0 0 0 0 1 0 1 0 2429.dat
-1 15 -40 -20 -12.0002 1 0 0 0 0 -1 0 1 0 2430.dat
+1 15 40 -20 11.9998 1 0 0 0 0 1 0 -1 0 2429.dat
+1 15 40 -20 12 -1 0 0 0 0 -1 0 -1 0 2430.dat
 0 STEP
-1 15 0 -10 -20 -1 0 0 0 0 1 0 1 0 2431.dat
+1 15 0 -10 19.9998 1 0 0 0 0 1 0 -1 0 2431.dat
 0 STEP
-1 15 40 -20 -12 -1 0 0 0 0 1 0 1 0 2430.dat
-1 15 40 -20 -12 1 0 0 0 0 -1 0 1 0 2429.dat
+1 15 -40 -20 11.9998 1 0 0 0 0 1 0 -1 0 2430.dat
+1 15 -40 -20 11.9998 -1 0 0 0 0 -1 0 -1 0 2429.dat
 0 STEP
-1 15 19.9999 -40.0001 10 1 0 0 0 1 0 0 0 1 99781.dat
+1 15 -19.9999 -40.0001 -10.0002 -1 0 0 0 1 0 0 0 -1 99781.dat
 0 STEP
-1 15 -20 -30 -20.0001 1 0 0 0 0 -1 0 1 0 3069b.dat
-1 15 20 -30 -20.0001 1 0 0 0 0 -1 0 1 0 3069b.dat
+1 15 20 -30 19.9999 -1 0 0 0 0 -1 0 -1 0 3069b.dat
+1 15 -20 -30 19.9999 -1 0 0 0 0 -1 0 -1 0 3069b.dat
+0 Author: LPub3D
+0 Author: LPub3D
+0 Author: LPub3D
 0 NOFILE
+0
 0 FILE hinges front.ldr
+0 Name: hinges front.ldr
+0 Author:
 1 15 -20 -40.0002 9.9999 1 0 0 0 1 0 0 0 1 99781.dat
+0 Name: Model-1615-hinges front.ldr
+0 Author: LPub3D
 0 STEP
 1 15 -40 -20 -12.0002 1 0 0 0 0 -1 0 1 0 2430.dat
 1 15 -40 -20 -12 -1 0 0 0 0 1 0 1 0 2429.dat
@@ -281,14 +295,17 @@
 1 15 30 -10 -20 -1 0 0 0 0 1 0 1 0 3070b.dat
 1 15 -30 -10 -20 -1 0 0 0 0 1 0 1 0 3070b.dat
 0 STEP
-1 71 0 -10 -28 -1 0 0 0 0 1 0 1 0 3024.dat
+1 15 0 -10 -28 -1 0 0 0 0 1 0 1 0 36840.dat
 1 71 0 -10 -36 -1 0 0 0 0 1 0 1 0 3024.dat
 1 71 0 -10 -60 -1 0 0 0 0 1 0 1 0 4070.dat
 0 STEP
+0 Author: LPub3D
+0 Author: LPub3D
 0 NOFILE
-0 FILE bay top.ldr
 0
+0 FILE bay top.ldr
 0 Name: bay top.ldr
+0 Author:
 1 71 10.1785 -8.0002 0 0 0 -1 0 1 0 1 0 0 4477.dat
 0 STEP
 1 15 19.9286 -0.0002 40 0 0 -1 0 1 0 1 0 0 15068.dat
@@ -298,10 +315,14 @@
 1 15 19.9286 -0.0002 0.0001 0 0 -1 0 1 0 1 0 0 15068.dat
 0 STEP
 1 15 29.9286 -0.0001 0 0 0 1 0 1 0 -1 0 0 3666.dat
+0 Author: LPub3D
+0 Author: LPub3D
+0 Author: LPub3D
 0 NOFILE
-0 FILE nose.ldr
 0
+0 FILE nose.ldr
 0 Name: nose.ldr
+0 Author:
 1 71 0 -8 -10 -1 0 0 0 1 0 0 0 -1 36840.dat
 0 STEP
 1 71 0 -16 -10 1 0 0 0 1 0 0 0 1 3024.dat
@@ -313,9 +334,17 @@
 1 0 0 -10 -28 -1 0 0 0 0 1 0 1 0 1745.dat
 0 STEP
 1 72 0 -48 -10 1 0 0 0 1 0 0 0 1 98138.dat
+0 Author: LPub3D
+0 Author: LPub3D
+0 Author: LPub3D
 0 NOFILE
+0
 0 FILE cheek left.ldr
+0 Name: cheek left.ldr
+0 Author:
 1 15 22 -20 -20 0 -1 0 0 0 -1 1 0 0 3022.dat
+0 Name: Model-4324-cheek left.ldr
+0 Author: LPub3D
 0 STEP
 1 0 30 -10 0 0 -1 0 0 0 -1 1 0 0 18677.dat
 0 STEP
@@ -330,9 +359,17 @@
 1 15 38.0001 -19.9999 10 0 -1 0 1 0 0 0 0 1 3069b.dat
 0
 0 Name: cheek left.ldr
+0 Author: LPub3D
+0 Author: LPub3D
 0 NOFILE
+0
 0 FILE cheek right.ldr
+0 Name: cheek right.ldr
+0 Author:
+0 !LPUB ASSEM CAMERA_ANGLES 23.0  225.0
 1 15 -22 -20 -20 0 1 0 0 0 1 1 0 0 3022.dat
+0 Name: Model-3553-cheek right.ldr
+0 Author: LPub3D
 0 STEP
 1 0 -30 -10 0 0 1 0 0 0 1 1 0 0 18677.dat
 0 STEP
@@ -346,14 +383,31 @@
 1 15 -38 -10 10 0 1 0 0 0 -1 -1 0 0 14719.dat
 0
 0 Name: cheek right.ldr
+0 Author: LPub3D
+0 Author: LPub3D
 0 NOFILE
+0
 0 FILE arm.ldr
-1 15 33 -48 125.9999 0 0 1 1 0 0 0 1 0 11090.dat
+0 Name: arm.ldr
+0 Author:
+1 15 0 -40 70 0 0 1 0 1 0 -1 0 0 6541.dat
 0 STEP
-1 71 33 -48 163 0 0 -1 1 0 0 0 -1 0 78258.dat
+1 15 10 -30 70 0 1 0 -0.866025 0 -0.5 -0.5 0 0.866025 3661.dat
+1 15 -10 -30 70 0 -1 0 -0.866025 0 0.5 -0.5 0 -0.866025 3661.dat
 0 STEP
-1 15 33 -48 200.0001 0 0 -1 1 0 0 0 -1 0 23443.dat
-1 15 33 -48 200.0001 0 0 -1 1 0 0 0 -1 0 11090.dat
+1 15 27 -47 59.9999 0 0 1 0.999848 -0.017452 0 0.017452 0.999848 0 11090.dat
+0 Name: Model-6251-arm.ldr
+0 Author: LPub3D
 0 STEP
-1 71 33.9063 -49.5774 251.0003 0 -0.422617 0.906308 0 0.906308 0.422617 -1 0 0 32828.dat
+1 71 27 -47.6457 96.9944 0 0 -1 0.999848 0.017452 0 0.017452 -0.999848 0 78258.dat
+0 STEP
+1 15 27 -48.2915 133.9889 0 0 -1 0.999848 0.017452 0 0.017452 -0.999848 0 23443.dat
+1 15 27 -48.2915 133.9889 0 0 -1 0.999848 0.017452 0 0.017452 -0.999848 0 11090.dat
+0 STEP
+1 71 27.9063 -50.7587 184.9538 0 -0.573576 0.819153 0.017452 0.819028 0.573488 -0.999848 0.014296 0.01001 32828.dat
+0 STEP
+1 15 0 -50 70 0 0 1 0 1 0 -1 0 0 18654.dat
+0 Author: LPub3D
+0 Author: LPub3D
 0 NOFILE
+0
