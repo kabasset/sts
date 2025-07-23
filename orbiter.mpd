@@ -5,6 +5,10 @@
 0 !LPUB PLI PLACEMENT GLOBAL RIGHT TOP STEP_NUMBER OUTSIDE
 0 !LPUB PAGE ORIENTATION GLOBAL LANDSCAPE
 0 !LPUB PAGE SIZE GLOBAL 8.2677 11.6929 A4 LANDSCAPE
+0 !LPUB INSERT TEXT "Space Transportation System\nOrbiter (Space Shuttle)\nby kabasset" "Arial,36,-1,5,50,0,0,0,0,0,Regular" "#FFFFFF" OFFSET 0.0500 0.07500
+0 !LPUB INSERT PICTURE "./orbiter4.JPG" SCALE 0.33 OFFSET 0 0
+0 !LPUB INSERT COVER_PAGE FRONT
+0 STEP
 1 0 0 -8 180 -1 0 0 0 1 0 0 0 -1 3032.dat
 1 0 0 -8 60 0 0 1 0 1 0 -1 0 0 3034.dat
 1 0 0 -8 230 1 0 0 0 1 0 0 0 1 4477.dat
@@ -214,6 +218,7 @@
 1 15 0 -48 -40 0 0 1 0 1 0 -1 0 0 3710.dat
 1 15 0 -56 -10 0 0 1 0 1 0 -1 0 0 3623.dat
 0 STEP
+0 !LPUB INSERT TEXT "5415" "Arial,24,-1,255,50,0,0,0,0,0" "#000000" OFFSET 0.5021 0.0887
 0 !LEOCAD PIECE PIVOT  -20 0 10 1 0 0 0 1 0 0 0 1
 0 !LPUB CALLOUT ASSEM CAMERA_ANGLES 23.0   225.0
 0 !LPUB CALLOUT BEGIN
@@ -223,6 +228,7 @@
 0 !LPUB CALLOUT PLACEMENT RIGHT CENTER ASSEM OUTSIDE OFFSET -1.5 -0.5
 0 !LPUB CALLOUT END
 0 STEP
+0 !LPUB INSERT TEXT "5414" "Arial,24,-1,255,50,0,0,0,0,0" "#000000" OFFSET 0.5252 0.0894
 0 !LEOCAD PIECE PIVOT  20 0 10 1 0 0 0 1 0 0 0 1
 0 !LPUB CALLOUT ASSEM CAMERA_ANGLES 23.0   45.0
 0 !LPUB CALLOUT BEGIN
@@ -265,6 +271,7 @@
 0 Author: LPub3D
 0 Author: LPub3D
 0 Author: LPub3D
+0 Author: LPub3D
 0 NOFILE
 0
 0 FILE oms left.ldr
@@ -283,6 +290,7 @@
 1 15 0 -56 20 1 0 0 0 1 0 0 0 1 60897.dat
 0 STEP
 1 15 -10 -80 20 -1 0 0 0 1 0 0 0 -1 37352.dat
+0 Author: LPub3D
 0 Author: LPub3D
 0 Author: LPub3D
 0 Author: LPub3D
@@ -311,6 +319,7 @@
 0 Author: LPub3D
 0 Author: LPub3D
 0 Author: LPub3D
+0 Author: LPub3D
 0 NOFILE
 0
 0 FILE hinges back.ldr
@@ -330,6 +339,7 @@
 0 STEP
 1 15 20 -30 19.9999 -1 0 0 0 0 -1 0 -1 0 3069b.dat
 1 15 -20 -30 19.9999 -1 0 0 0 0 -1 0 -1 0 3069b.dat
+0 Author: LPub3D
 0 Author: LPub3D
 0 Author: LPub3D
 0 Author: LPub3D
@@ -367,6 +377,7 @@
 0 Author: LPub3D
 0 Author: LPub3D
 0 Author: LPub3D
+0 Author: LPub3D
 0 NOFILE
 0
 0 FILE bay top.ldr
@@ -381,6 +392,7 @@
 1 15 19.9286 -0.0002 0.0001 0 0 -1 0 1 0 1 0 0 15068.dat
 0 STEP
 1 15 29.9286 -0.0001 0 0 0 1 0 1 0 -1 0 0 3666.dat
+0 Author: LPub3D
 0 Author: LPub3D
 0 Author: LPub3D
 0 Author: LPub3D
@@ -402,6 +414,7 @@
 1 0 0 -10 -28 -1 0 0 0 0 1 0 1 0 1745.dat
 0 STEP
 1 72 0 -48 -10 1 0 0 0 1 0 0 0 1 98138.dat
+0 Author: LPub3D
 0 Author: LPub3D
 0 Author: LPub3D
 0 Author: LPub3D
@@ -433,6 +446,7 @@
 0 Author: LPub3D
 0 Author: LPub3D
 0 Author: LPub3D
+0 Author: LPub3D
 0 NOFILE
 0
 0 FILE cheek right.ldr
@@ -455,6 +469,7 @@
 1 15 -38 -10 10 0 1 0 0 0 -1 -1 0 0 14719.dat
 0
 0 Name: cheek right.ldr
+0 Author: LPub3D
 0 Author: LPub3D
 0 Author: LPub3D
 0 Author: LPub3D
